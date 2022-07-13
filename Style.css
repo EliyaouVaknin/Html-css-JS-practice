@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+*{
+    font-family: 'Assistant', sans-serif;
+}
+
+.header{
+    z-index: 4;
+    background-color: white;
+    position: fixed;
+}
+
+.headerTabDiv{
+    margin-top: 0.5%;
+}
+
+.headerTab{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(0, 0, 102);
+}
+
+.headerTab:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(0, 0, 102);
+    cursor: pointer;
+}
+
+.title{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#lang1{
+    cursor: pointer;
+} 
+#lang2{
+    cursor: pointer;
+}
+
+.WellcomeTitle{
+    margin-bottom: 50%;
+    font-size: 350%;
+    text-shadow: none;
+}
+
+.wellcomeCarousel{
+    margin-left: 20%;
+}
+
+.carousel-indicators button {
+    height: 13px !important;
+    width: 13px !important;
+    margin: 80px 10px !important;
+    border-radius: 100%;
+    background-color: white !important;
+}
+
+.brand{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./Images/19.webp');
+}
+.brandLogo{
+    margin-bottom: 8%;
+    cursor: pointer;
+}
+
+.brandLogo:hover{
+    transform: scale(1.1);
+}
+
+
+.ourStoryDiv{
+    width: 75%;
+    font-size: 15px;
+}
+
+#ourStoryImg{
+    background-image: url('./Images/22.webp'); 
+}
+
+#ourStoryImgP{
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    width: 35%;
+    height: 50%;
+    transform: translate(-115%,-30%);
+
+}
+
+#contactTitle{
+    position: absolute;
+    transform: translate(0%,-30%);
+}
+
+#fullName{
+    width: 17%;
+    border: none;
+    font-size: 12px;
+    transform: translate(-115%,-1850%);
+}
+
+#phone{
+    width: 17%;
+    border: none;
+    font-size: 12px;
+    transform: translate(-15%,-1530%);
+}
+
+#email{
+    width: 17%;
+    border: none;
+    font-size: 12px;
+    transform: translate(85%,-1190%);
+}
+
+#subject{
+    width: 17%;
+    border: none;
+    font-size: 12px;
+    transform: translate(183%,-880%);
+}
+
+#note{
+    width: 35%;
+    border: none;
+    font-size: 12px;
+    transform: translate(-118%,-1710%);
+}
+
+#sendBtn{
+    width: 17%;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    transform: translate(-100%,-480%);
+    background-color: transparent;
+}
+
+#fullName:active, #phone:active, #subject:active, #note:active, #sendBtn:active{
+    border: none;
+    outline: none;
+}
+
+.footer{
+    background-image: url('./Images/21.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footerCol{
+    color:white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    cursor: pointer; 
+}
